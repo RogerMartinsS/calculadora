@@ -3,5 +3,9 @@
     width: 240px;
     border-radius: 6px;
     overflow: hidden;
-    background-color: red;
+    
+
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: ifr 48px 48px 48px 48px 48px;
 }
